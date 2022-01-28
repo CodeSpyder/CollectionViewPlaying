@@ -1,8 +1,5 @@
 /*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-Generic text cell
+Date: 1/28/2022
 */
 
 import UIKit
@@ -17,7 +14,7 @@ class ImageCell: UICollectionViewCell {
         configure()
     }
     required init?(coder: NSCoder) {
-        fatalError("not implemnted")
+        super.init(coder: coder)
     }
 
 }
@@ -28,8 +25,6 @@ extension ImageCell {
         imageView.layer.cornerRadius = 6
         imageView.layer.masksToBounds = true
         contentView.addSubview(imageView)
-//        label.font = UIFont.preferredFont(forTextStyle: .caption1)
-//        let inset = CGFloat(10)
         NSLayoutConstraint.activate([
             imageView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 1),
             imageView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: 1),

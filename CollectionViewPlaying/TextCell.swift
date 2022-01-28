@@ -1,8 +1,5 @@
 /*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-Generic text cell
+Date: 1/28/2022
 */
 
 import UIKit
@@ -16,7 +13,7 @@ class TextCell: UICollectionViewCell {
         configure()
     }
     required init?(coder: NSCoder) {
-        fatalError("not implemnted")
+        super.init(coder: coder)
     }
 
 }
