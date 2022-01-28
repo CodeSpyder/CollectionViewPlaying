@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  CollectionViewPlaying
 //
-//  Created by Hollis on 12/28/21.
+//  Created by CodeSpyder on 12/28/21.
 //
 
 import UIKit
