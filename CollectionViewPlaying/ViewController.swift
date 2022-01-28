@@ -16,7 +16,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.title = "Orthogonal Sections"
+        navigationItem.title = "Image Sections"
         configureHierarchy()
         configureDataSource()
     }
@@ -25,26 +25,6 @@ class ViewController: UIViewController {
 }
 
 extension ViewController {
-
-    //   +-----------------------------------------------------+
-    //   | +---------------------------------+  +-----------+  |
-    //   | |                                 |  |           |  |
-    //   | |                                 |  |           |  |
-    //   | |                                 |  |     1     |  |
-    //   | |                                 |  |           |  |
-    //   | |                                 |  |           |  |
-    //   | |                                 |  +-----------+  |
-    //   | |               0                 |                 |
-    //   | |                                 |  +-----------+  |
-    //   | |                                 |  |           |  |
-    //   | |                                 |  |           |  |
-    //   | |                                 |  |     2     |  |
-    //   | |                                 |  |           |  |
-    //   | |                                 |  |           |  |
-    //   | +---------------------------------+  +-----------+  |
-    //   +-----------------------------------------------------+
-
-    /// - Tag: Orthogonal
     func createLayout() -> UICollectionViewLayout {
 //        let layout = UICollectionViewCompositionalLayout {
 //            (sectionIndex: Int, layoutEnvironment: NSCollectionLayoutEnvironment) -> NSCollectionLayoutSection? in
